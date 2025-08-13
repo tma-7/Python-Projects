@@ -30,7 +30,7 @@ if ask_question == "M":
     
     elif get_metric == 'E':
         celcius = float(input("What is the temperature?: "))
-        farenheit = (celcius * (9/5) + 32)
+        farenheit = ((celcius * (9/5)) + 32
         print(f"The temperature in farenheit is {round(farenheit, 1)} F.")
     
     else:
@@ -72,3 +72,4 @@ if ask_question == "I":
 else:
     print("Invalid Option")
     
+
