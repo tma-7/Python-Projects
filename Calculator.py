@@ -1,6 +1,6 @@
 #Calculator 
 #Goal: Make a calculator that conducts the 4 basic operations (add, subtract, multiply, and divide) for two numbers
-#Talha Ahmed | 8/11/2025 | 6:00 PM EST
+# 8/11/2025 | 6:00 PM EST
 
 num_1 = float(input("What is your first number? :"))
 num_2 = float(input("What is your second number? : "))
@@ -24,3 +24,4 @@ elif op == '/':
 
 else:
     print(f"{op} is an invalid operator") 
+
