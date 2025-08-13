@@ -1,6 +1,6 @@
 #Imperial-Metric Convertor
 #Goal: Convert any imperial measurements (lbs, ft, in, miles, farenheit, etc.) into metric units and vice versa
-#Talha Ahmed | 8/12/2025 | 9:46 PM EST
+# 8/12/2025 | 9:46 PM EST
 
 ask_question = input("What unit are you giving me? | 'I' for Imperial | 'M' for  Metric': ")
 #--------------------------------------------------------------------------------------------------------------------------------------
@@ -61,3 +61,4 @@ if ask_question == "I":
 
 else:
     print("Invalid Option")
+
